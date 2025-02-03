@@ -1,0 +1,10 @@
+[package]
+name = "esp-craft"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+#valence = { path = "../../valence" }
+valence = { git = "https://github.com/georgik/valence.git", rev = "8f3f84d557dacddd7faddb2ad724185ecee2e482" } 
+rand = "0.8.5"
+bevy = { version = "0.14.2" }
